@@ -1,0 +1,521 @@
+/* 폰트 코드 */
+@font-face {
+    font-family: 'Paperozi_R';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Paperozi_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Paperozi_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+/* index 스타일 */
+.video_wrap{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
+video{
+    min-width: 100%;
+    min-height: 100vh;
+    display: block;
+}
+.bt_01 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 29px;
+    z-index: 10;
+    width: 338px;
+    height: 124px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 글자와 링크 자체를 투명하게 */
+.bt_01 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    text-decoration: none;
+}
+
+/* 제목 폰트 셋팅 */
+.font01{
+    font-family: 'Paperozi_B';
+}
+.font02{
+    font-family: 'Paperozi_M';
+}
+.font03{
+    font-family: 'Paperozi_R';
+}
+/* 페이지 배경 */
+.a_box{
+    position: relative;
+    height: 732px;background-image: url(img/pt_01.png);
+}
+.b_box{
+    position: relative;
+    height: 750px;background:linear-gradient(to bottom, #B57DBB, #8C33B5);
+}
+.c_box{
+    position: relative;
+    height: 750px;background:linear-gradient(to bottom, #D86E88, #B63654);
+}
+.d_box{
+    position: relative;
+    height: 750px;background:linear-gradient(to bottom, #96CEB8, #3D7D6C);
+}
+.e_box{
+    position: relative;
+    height: 700px;background-color: #00FE9C;
+}
+.f_box{
+    position: relative;
+    height: 1212px;background: linear-gradient(180deg,rgba(237, 221, 83, 1) 5%, rgba(189, 206, 254, 1) 50%, rgba(195, 30, 79, 1) 95%);
+}
+
+/* a박스 스타일 */
+.a_01{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90px;
+    /* border: 1px solid red; */
+}
+.a_02{
+    position: absolute;
+    width: 364px;
+    height: 188px;
+    bottom: 90px;
+    background-color: white;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.a_02_01{
+    font-size: 15px;
+    line-height: 18px;
+    color: #491461;
+    text-align: center;
+    padding-top: 25px;
+}
+.a_02_02{
+    font-size: 35px;
+    line-height: 18px;
+    color: #300046;
+    text-align: center;
+    padding: 27px;
+}
+/* B박스 스타일 */
+.b_01{
+    width: 364px;
+    height: 399px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    /* border: 1px solid red; */
+}
+.b_01_01{
+    position: absolute;
+    width: 300px;
+    height: 155px;
+    background-image: url(img/b_01.png);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.b_01_02{
+    position: absolute;
+
+    width: 300px;
+    height: 155px;
+    background-image: url(img/b_02.png);
+    z-index: 3;
+    top: 119px;
+    right: 0;
+}
+.b_01_03{
+    position: absolute;
+    width: 300px;
+    height: 155px;
+    background-image: url(img/b_03.png);
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+}
+.b_02_box{
+    position: absolute;
+    width: 322px;
+    height: 169px;
+    bottom: 70px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.b_02_01{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.b_02_02{
+    border-bottom: 2px solid white;
+    width: 311px;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+.b_02_03{
+    font-size: 12px;
+    color:white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+
+}
+.b_02_02{
+    border-bottom: 2px solid white;
+    width: 311px;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+/* c박스 스타일 */
+.c_01{
+    width: 364px;
+    height: 399px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+.c_01_01{
+    position: absolute;
+    width: 300px;
+    height: 155px;
+    background-image: url(img/c_01.png);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.c_01_02{
+    position: absolute;
+
+    width: 300px;
+    height: 155px;
+    background-image: url(img/c_02.png);
+    z-index: 3;
+    top: 119px;
+    right: 0;
+}
+.c_01_03{
+    position: absolute;
+    width: 300px;
+    height: 155px;
+    background-image: url(img/c_03.png);
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+}
+.c_02_box{
+    position: absolute;
+    width: 322px;
+    height: 169px;
+    bottom: 70px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.c_02_01{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.c_02_02{
+    border-bottom: 2px solid white;
+    width: 311px;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+.c_02_03{
+    font-size: 12px;
+    color:white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+
+}
+.c_02_02{
+    border-bottom: 2px solid white;
+    width: 311px;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+/* d박스 스타일 */
+.d_01{
+    width: 364px;
+    height: 399px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+.d_01_01{
+    position: absolute;
+    width: 300px;
+    height: 155px;
+    background-image: url(img/d_01.png);
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.d_01_02{
+    position: absolute;
+
+    width: 300px;
+    height: 155px;
+    background-image: url(img/d_02.png);
+    z-index: 3;
+    top: 119px;
+    right: 0;
+}
+.d_01_03{
+    position: absolute;
+    width: 300px;
+    height: 155px;
+    background-image: url(img/d_03.png);
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+}
+.d_02_box{
+    position: absolute;
+    width: 322px;
+    height: 169px;
+    bottom: 70px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.d_02_01{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.d_02_02{
+    border-bottom: 2px solid white;
+    width: 311px;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+.d_02_03{
+    font-size: 12px;
+    color:white;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+
+}
+.d_02_02{
+    border-bottom: 2px solid white;
+    width: 311px;
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+}
+/* e박스 스타일 */
+.e_01{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
+.e_02_box{
+    position: absolute;
+    width: 354px;
+    height: 90px;
+    bottom: 65px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.e_02_01{
+    font-size: 15px;
+    text-align: center;
+}
+/* fgh박스 스타일 */
+/* f */
+.f_01{
+    width: 364px;
+    height: 260px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    /* border: 1px solid red; */
+}
+.f_01_01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.f_01_02{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    animation: rotateAni 5s linear infinite;
+}
+@keyframes rotateAni {
+    from { transform: translateY(-50%) rotate(0deg); }
+    to   { transform: translateY(-50%) rotate(360deg); }
+}
+.f_02_box{
+    position: absolute;
+    width: 172px;
+    height: 56px;
+    top: 338px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.f_02_01{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.f_02_02{
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+    margin: auto;
+}
+/* g */
+.g_01{
+    width: 364px;
+    height: 260px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 444px;
+    /* border: 1px solid red; */
+}
+.g_01_01{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.g_01_02{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    animation: gSpin 5s linear infinite;
+}
+@keyframes gSpin {
+  from { transform: translateY(-50%) rotate(0deg); }
+  to   { transform: translateY(-50%) rotate(360deg); }
+}
+.g_02_box{
+    position: absolute;
+    width: 252px;
+    height: 56px;
+    top: 712px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.g_02_01{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.g_02_02{
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+    margin: auto;
+}
+/* h */
+.h_01{
+    width: 364px;
+    height: 260px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 134px;
+    /* border: 1px solid red; */
+}
+.h_01_01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 260px; /* 반드시 크기 지정 */
+    height: 260px;
+    background-image: url(img/h_01_01.png);
+    background-size: cover; /* 이미지 꽉 채우기 */
+    background-repeat: no-repeat;
+}
+
+.h_01_02{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    animation: rotateAni 5s linear infinite;
+}
+@keyframes rotateAni {
+    from { transform: translateY(-50%) rotate(0deg); }
+    to   { transform: translateY(-50%) rotate(360deg); }
+}
+.h_02_box{
+    position: absolute;
+    width: 173px;
+    height: 56px;
+    bottom: 70px;
+    /* border: 1px solid red; */
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.h_02_01{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+.h_02_02{
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+    margin: auto;
+}
